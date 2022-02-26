@@ -1,0 +1,8 @@
+executable              = job_Run_346979_Prompt_CosmicsPrompt.sh
+getenv                  = true
+arguments               = $(ClusterId) $(ProcId)
+output                  = ./Logs/out.$(ClusterId)_Run346979_Prompt_CosmicsPrompt.dat
+error                   = ./Logs/error.$(ClusterId)_Run346979_Prompt_CosmicsPrompt.err
+log                     = ./Logs/log.$(ClusterId)_Run346979_Prompt_CosmicsPrompt.log
++JobFlavour             = "tomorrow" 
+queue
